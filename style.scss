@@ -13,6 +13,7 @@
     max-width: 30em;
     margin:auto;
     position: relative;
+    font-family: arial;
     min-height: 100vh;
     display: flex;
     flex-direction:column;
@@ -41,8 +42,13 @@
         // flex: 1 0 100%;
     }
 
+    .welcome-text{
+        h2{
+            text-align: center;
+        }
+    }
+
     .login-buttons{
-        font-family: arial;
         font-size: 0.5em;
         text-align: center;
 
